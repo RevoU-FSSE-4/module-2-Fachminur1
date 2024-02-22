@@ -1,13 +1,12 @@
 # Welcome to my project for RevoU assignment. 
 
-## In this assignment, I am creating a website that consist of HTML and CSS file. The structure is build like this : 
-- Header
-  - Navigation bar
+## In this assignment, I am creating a website that consist of HTML and CSS file. The skillset requires to have are : 
 
-- Main
-  - Sticky Nav bar
-  - Product Section
-  - Sign up section
+  - Applying custom font
+  - Adding advance style like text shadow
+  - Applying grid in both container and children
+  - Responsive image
+  - Applying animation with CSS 
 
 **Here are the steps of creating them from scratch:**
 
