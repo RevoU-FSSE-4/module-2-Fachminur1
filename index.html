@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dota meta heroes of the month">
+    <title>Dota Meta of the month</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image" href="./assets/dota.jpeg">
+</head>
+<!-- Ini dasar web -->
+
+
+<body>
+        
+        <!-- Awal dari header -->
+        
+       
+            <header>
+            <div class="intro">
+                <h1 style="text-align: center;">Welcome to meta of the month</h1>
+            </div>
+                 <!-- awal dari bagian navigasi paling atas -->
+        <nav class="navigationbar">
+            <img class="icon" style="width: 30px; height: 30px;" src="./assets/hamburger.png" alt="hamburgermenu">
+            <div class="leftnavigationbar">
+                <a onclick="home()">Home</a>
+                <a onclick="journey()">Journey</a>
+                <a onclick="community()">Community</a>
+                
+            </div>
+            <div class="rightnavigationbar">
+                <a onclick="joinus()" >Join us</a>
+                <a onclick="login()" >Log in</a>
+                <a onclick="aboutus()">About us</a>
+                
+            </div>
+            
+        </nav>
+        <!-- akhir dari bagian navigasi paling atas -->
+        
+            </header>
+        <!-- Akhir dari header -->
+
+        <!-- Awal dari Konten Utama -->
+        <main>
+            <div class="toogle">
+                <p class="darkmodetext" >Light mode</p>
+                <input class="darkmode" type="checkbox" id="check">
+                <label for="check" class="darkmodebutton"></label>
+            </div>
+            <div class="question">
+                <div class="question1">
+                    <h3>Welcome to the meta of the month</h3>
+                    <p>This month, right before patch 7.35 released globally, there are several buffs and nerfs</p>
+                </div>
+                <div class="question2">
+                    <h3>Players on January</h3>
+                    <p>Everyday, 440.000 players are playing in January</p>
+                </div>
+                <div class="question3">
+                    <h3>Peak of January<h3>
+                    <p>There are total of 741.290 active players in January</p>
+                </div>
+            </div>
+
+            <div class="placelist">
+                <p>Heroes of the month</p>
+            </div>
+
+            <div class="maincontent">
+                <!-- SIDEBAR -->
+                <aside>
+                    <p>Heroes</p>
+                    <p style="background-color: black; color: grey;" >-</p>
+                    <ul style="color: white;" >
+                        <li>Abbadon</li>
+                        <li>Alchemist</li>
+                        <li>Ancient Apparation</li>
+                        <li>Anti Mage</li>
+                        <li>Arc Warden</li>
+                        <li>Axe</li>
+                        <li>Bane</li>
+                        <li>Batrider</li>
+                        <li>Beast Master</li>
+                        <li>Bloodseeker</li>
+                        <li>Bounty Hunter</li>
+                        <li>Brewmaster</li>
+                        <li>Bristleback</li>
+                    </ul>
+                    <p style="background-color: black; color: grey;" >-</p>
+                    <ul>
+                        <li>Broodmother</li>
+                        <li>Centaur Warrunner</li>
+                        <li>Chaos Knight</li>
+                        <li>Chen</li>
+                        <li>Clinkz</li>
+                        <li>Clockwerk</li>
+                        <li>Crystal Maiden</li>
+                        <li>Dark Seer</li>
+                        <li>Dark Willow</li>
+                        <li>Dawnbreaker</li>
+                        <li>Dazzle</li>
+                        <li>Death Prophet</li>
+                        <li>Disruptor</li>
+                    </ul>
+                    <p style="background-color: black; color: grey;" >-</p>
+                    <ul style="color: white;" >
+                        <li>Doom</li>
+                        <li>Dragon Knight</li>
+                        <li>Drow Ranger</li>
+                        <li>Earth Spirit</li>
+                        <li>Earthshaker</li>
+                        <li>Elder Titan</li>
+                        <li>Ember Spirit</li>
+                        <li>Enchantress</li>
+                        <li>Enigma</li>
+                        <li>Faceless Void</li>
+                        <li>Grimstroke</li>
+                        <li>Gyrocopter</li>
+                        <li>Hoodwink</li>
+                    </ul>
+                    <p style="background-color: black; color: grey;" >-</p>
+                    <ul>
+                        <li>Huskar</li>
+                        <li>Invoker</li>
+                        <li>Io</li>
+                        <li>Jakiro</li>
+                        <li>Juggernaut</li>
+                        <li>KOTL</li>
+                        <li>Kunkka</li>
+                        <li>Legion Commander</li>
+                        <li>Leshrac</li>
+                        <li>Lich</li>
+                        <li>Lifestealer</li>
+                        <li>Lina</li>
+                        <li>Lion</li>
+                    </ul>
+                    <p style="background-color: black; color: grey;" >-</p>
+                    <ul style="color: white;" >
+                        <li>Lone Druid</li>
+                        <li>Luna</li>
+                        <li>Lycan</li>
+                        
+                    </ul>
+                </aside>
+                <!-- SIDEBAR -->
+                    <!-- Invoker -->
+                    <div class="invokerpic">
+                        <p class="textinformation" onclick="invoker()" style="text-align: center;">Invoker</p>
+                    </div>
+                        <div class="invokerinformation">
+                            <p>With an intricate arsenal of spells at his disposal, Invoker can adapt to any battle situation. Each configuration of his three spell components yields of one of ten spells, meaning he's never without a way to destroy or escape his enemies.<p>
+                        </div>
+                    <!-- Invoker -->
+
+                    <!-- Anti Mage -->
+                    <div class="antimagepic">
+                        <p class="textinformation" onclick="antimage()" style="text-align: center;">Antimage</p>
+                    </div>
+                        <div class="antimageinformation">
+                            <p> Should Anti-Mage have the opportunity to gather his full strength, few can stop his assaults. Draining mana from enemies with every strike or teleporting short distances to escape an ambush, cornering him is a challenge for any foe..</p>
+                        </div>
+                    <!-- Anti mage -->
+
+                    <!-- Earth Spirit -->
+                    <div class="earthspiritpic">
+                        <p class="textinformation" onclick="earthspirit()" style="text-align: center;">Earth Spirit</p>
+                    </div>
+                        <div class="earthspiritinformation">
+                            <p> Deep amid the Upland crags and cliffs there runs a seam of sacred jade long foresworn by highland miners. From this rare material, the likeness of the great general Kaolin was carved and buried at the head of a stone funerary army ten thousand strong--a force of soldiers and holy men, jesters and acrobats, carved by crafstmen and entombed for millennia in the dark embrace of the Earth.</p>
+                        </div>                    
+                    <!-- Earth Spirit -->
+
+                    <!-- Clockwerk -->
+                    <div class="clockwerkpic">
+                        <p class="textinformation" onclick="clockwerk()" style="text-align: center;">Clockwerk</p>
+                    </div>
+                        <div class="clockwerkinformation">
+                            <p>Rattletrap descends from the same far-flung kindred as Sniper and Tinker, and like many of the Keen Folk, has offset his diminutive stature through the application of gadgetry and wit. The son of the son of a clockmaker, Rattletrap was many years apprenticed to that trade before war rode down from the mountains and swept the plains villages free of such innocent vocations. "Your new trade is battle," his dying father told him as the village of their ancestors lay in charred and smoking ruins..</p>
+                        </div>
+                    <!-- Clockwerk -->
+
+                    <!-- Lion -->
+                    <div class="lionpic">
+                        <p class="textinformation" onclick="lion()" style="text-align: center;">Lion</p>
+                    </div>
+                        <div class="lioninformation">
+                            <p>Once a Grandmaster of the Demon Witch tradition of sorcery, Lion earned fame among his brethren for fighting on the side of light and righteousness. But adulation corrupts. With powers surpassed only by his ambition, the mage was seduced by a demon and turned to evil, trading his soul for prestige. After committing horrible crimes that marred his soul, he was abandoned. The demon betrayed him, striking better deals with his enemies. Such was Lion's rage that he followed the demon back to hell and slew it, ripping it limb from limb, taking its demonic hand for his own. However, such demonoplasty comes at a cost. Lion was transfigured by the process, his body transformed into something unrecognizable. He rose from hell, rage incarnate, slaying even those who had once called him master, and laying waste to the lands where he had once been so adored. He survives now as the sole practitioner of the Demon Witch tradition, and those who present themselves as acolytes or students are soon relieved of their mana and carried off by the faintest gust of wind.</p>
+                        </div>
+                    <!-- Lion -->
+            </div>
+
+            <div class="gallery">
+                <p class="gallerytext">Gallery</p>
+                <picture class="pictures" >
+                    <img class="gallery1" src="./assets/dota1.png" alt="some place around the world">
+                    <img class="gallery2" src="./assets/dota2.webp" alt="some place around the world">
+                    <img class="gallery3" src="./assets/dota3.jpeg" alt="some place around the world">
+                    <img class="gallery4" src="./assets/dota4.jpeg" alt="some place around the world">
+                </picture>
+            </div>
+
+                <picture class="bannerpicture" >
+                    <source media="(min-width:650px)" srcset="./assets/dotah1.jpg">
+                    <source media="(min-width:465px)" srcset="./assets/dotah2.jpg">
+                    <img src="./assets/dotah3.png" alt="dota" style="width: 50%;">
+                </picture>
+                  
+            
+
+
+
+
+
+            
+                <h2 style="text-align: center;">We can provide you information about heroes winrates and strategy</h2>
+                <form>
+                    <fieldset>
+                        <legend>Personal information:</legend>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" required><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" required><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday" required><br><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Heroes:</legend>
+                        <label for="places">Select one of the heroes</label>
+                                <select>
+                                    <option label="Invoker">Invoker</option>
+                                    <option label="Antimage">Antimage</option>
+                                    <option label="Earth Spirit">Earth Spirit</option>
+                                    <option label="Clockwerk">Clockwerk</option>
+                                    <option label="Lion">Lion</option><br><br>
+                                </select><br><br>
+                        <label for="rank">Ranks</label>
+                                <select>
+                                    <option label="Herald">Herald</option>
+                                    <option label="Guardian">Guardian</option>
+                                    <option label="Crusader">Crusader</option>
+                                    <option label="Archon">Archon</option>
+                                    <option label="Legend">Legend</option>
+                                    <option label="Ancient">Ancient</option>
+                                </select><br><br>
+                                <input type="radio" required>
+                                <label>I agree with DotaMeta Terms and Agreement</label>
+                                <input style="padding: 0% 40% 0% 40%;" value="Submit" type="submit">
+                    </fieldset>
+                </form>
+              
+        </main>
+        <!-- Akhir dari konten utama -->
+<script src="index.js"></script>
+
+
+
+    
+</body>
+</html>
