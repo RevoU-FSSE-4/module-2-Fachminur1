@@ -110,7 +110,7 @@ main {
 }
 
 .darkmodebutton {
-    background-color: white;
+    background-color: rgb(221, 214, 214);
     width: 70px;
     height: 30px;
     border-radius: 200px;
@@ -236,7 +236,7 @@ li:hover {
 }
 /* SIDEBAR CSS */
 
-    /* MORAINE LAKE CSS */
+    /* invoker CSS */
 .invokerpic {
     display: flex;
     justify-content: center;
@@ -285,9 +285,9 @@ li:hover {
     border: 5px solid grey;
     border-radius: 5%;
 }
-    /* MORAINE LAKE CSS */
+    /* invoker CSS */
 
-    /* SALAR DE UYUNI CSS */
+    /* antimage CSS */
 .antimagepic {
     grid-column: 5;
     grid-row: 2;
@@ -335,9 +335,9 @@ li:hover {
     border: 5px solid grey;
     border-radius: 5%;
 }
-    /* SALAR DE UYUNI CSS */
+    /* antimage CSS */
 
-    /* SANTORINI ISLAND CSS */
+    /* earthspirit CSS */
 .earthspiritpic {
     grid-column: 2;
     grid-row: 3;
@@ -385,9 +385,9 @@ li:hover {
     border: 5px solid grey;
     border-radius: 5%;
 }
-    /* SANTORINI ISLAND CSS */
+    /* earthspirit CSS */
 
-    /* ANGKOR WAT CSS */
+    /* clockwerk CSS */
 .clockwerkpic {
     grid-column: 5;
     grid-row: 4;
@@ -435,9 +435,9 @@ li:hover {
     border: 5px solid grey;
     border-radius: 5%;
 }
-    /* ANGKOR WAT CSS */
+    /* clockwerk CSS */
 
-    /* GREAT BARRIER REEF CSS */
+    /* lion CSS */
 .lionpic {
     grid-column: 2;
     grid-row: 5;
@@ -486,7 +486,7 @@ li:hover {
     border: 5px solid grey;
     border-radius: 5%;
 }
-    /* GREAT BARRIER REEF CSS */
+    /* lion CSS */
 
     /* GALERY CSS */
 .gallerytext {
